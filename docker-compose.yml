@@ -13,6 +13,8 @@ services:
         build: Elite/Elite
         volumes:
           - ./Elite/Elite/Data:/app/Data 
-        command: -u redteam -p redteam -h "" -c covenant
+        stdin_open: true
+        tty: true
+        command: -u redteam -p redteam -c covenant
         
       
