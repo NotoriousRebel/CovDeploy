@@ -2,6 +2,13 @@ version: '3'
 services:
     covenant:
         build: Covenant/Covenant
+        ports:
+          - 7443:7443
+          - 80:80
+          - 443:443
+        volumes:
+          - ./Covenant/Covenant/Data:/app/Data
+        command: -u redteam -p redteam -c 0.0.0.0
     elite:
         build: Elite/Elite
         
