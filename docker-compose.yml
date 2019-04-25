@@ -17,6 +17,6 @@ services:
           - ./Elite/Elite/Data:/app/Data 
         stdin_open: true
         tty: true
-        command: --username redteam --password redteam --computername 127.0.0.1 --hash ""
+        command: --username=[$USERNAME] --password=[$PASSWORD] --computername [$HOST_IP] --hash ""
         
       
