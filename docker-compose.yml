@@ -9,7 +9,7 @@ services:
           - 443:443
         volumes:
           - ./Covenant/Covenant/Data:/app/Data
-        command: -u redteam -p redteam -c 0.0.0.0
+        command: -u ${COVUSER} -p ${PASSWORD} -c 0.0.0.0
     elite:
         build: Elite/Elite
         network_mode: host
@@ -17,6 +17,6 @@ services:
           - ./Elite/Elite/Data:/app/Data 
         stdin_open: true
         tty: true
-        command: --username=${covUSER} --password=${PASSWORD} --computername ${HOST_IP} --hash ""
+        command: --username=${COVUSER} --password=${PASSWORD} --computername ${HOST_IP} --hash ""
         
       
