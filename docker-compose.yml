@@ -1,0 +1,8 @@
+version: '3'
+services:
+    covenant:
+        build: Covenant/Covenant
+    elite:
+        build: Elite/Elite
+        
+      
