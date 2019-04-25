@@ -17,6 +17,6 @@ services:
           - ./Elite/Elite/Data:/app/Data 
         stdin_open: true
         tty: true
-        command: --username=${USERNAME} --password=${PASSWORD} --computername ${HOST_IP} --hash ""
+        command: --username=${covUSER} --password=${PASSWORD} --computername ${HOST_IP} --hash ""
         
       
