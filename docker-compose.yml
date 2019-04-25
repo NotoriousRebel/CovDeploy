@@ -2,6 +2,7 @@ version: '3'
 services:
     covenant:
         build: Covenant/Covenant
+        network_mode: host
         ports:
           - 7443:7443
           - 80:80
@@ -11,10 +12,11 @@ services:
         command: -u redteam -p redteam -c 0.0.0.0
     elite:
         build: Elite/Elite
+        network_mode: host
         volumes:
           - ./Elite/Elite/Data:/app/Data 
         stdin_open: true
         tty: true
-        command: -u redteam -p redteam -c covenant
+        command: --username redteam --password redteam --computername 127.0.0.1 --hash ""
         
       
