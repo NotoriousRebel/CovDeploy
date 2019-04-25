@@ -11,5 +11,8 @@ services:
         command: -u redteam -p redteam -c 0.0.0.0
     elite:
         build: Elite/Elite
+        volumes:
+          - ./Elite/Elite/Data:/app/Data 
+        command: -u redteam -p redteam -h "" -c covenant
         
       
