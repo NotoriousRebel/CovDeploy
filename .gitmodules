@@ -1,3 +1,6 @@
 [submodule "Elite"]
 	path = Elite
 	url = https://github.com/cobbr/Elite
+[submodule "Covenant"]
+	path = Covenant
+	url = https://github.com/NotoriousRebel/Covenant
