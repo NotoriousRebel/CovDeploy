@@ -1,0 +1,5 @@
+- hosts: win_client
+  roles:
+    # Malware deploy
+    - malware
+    

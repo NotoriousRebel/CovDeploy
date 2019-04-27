@@ -1,0 +1,6 @@
+---
+- hosts: win_client
+  tasks:
+    # Deplpy the fun stuff
+    - import_tasks: roles/malware/main.yml
+    
